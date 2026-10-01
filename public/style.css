@@ -1,0 +1,11 @@
+
+body{margin:0;font-family:Arial;background:#071426;color:white;display:flex}
+.menu{width:230px;background:#102642;height:100vh;padding:20px}
+.menu button{width:100%;padding:12px;margin:5px;background:#17466d;color:white;border:0;border-radius:8px}
+.main{flex:1;padding:20px}
+header,.box,.alarm,.cards div{background:#102642;padding:20px;border-radius:12px;margin:15px 0}
+header{display:flex;justify-content:space-between}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.danger{border-left:8px solid red}
+.warning{border-left:8px solid orange}
+button{cursor:pointer;padding:8px}

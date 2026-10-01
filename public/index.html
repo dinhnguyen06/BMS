@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>SMART BMS SYSTEM v2.4</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="menu">
+<h2>⚡ SMART BMS</h2>
+<button onclick="show('dashboard')">Tổng quan</button>
+<button onclick="show('building')">Tòa nhà 10 tầng</button>
+<button onclick="show('energy')">Năng lượng</button>
+<button onclick="show('equipment')">Thiết bị</button>
+<button onclick="show('alarm')">Cảnh báo</button>
+<button onclick="show('history')">Lịch sử lỗi</button>
+<button onclick="show('control')">Điều khiển</button>
+<button onclick="show('report')">Báo cáo</button>
+</div>
+
+<div class="main">
+<header>
+Hệ thống quản lý tòa nhà thông minh BMS
+<span>🟢 Online</span>
+</header>
+<div id="app"></div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
